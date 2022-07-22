@@ -39,6 +39,7 @@ body{
     display: flex;
 }
 #navbar ul li{
+    font-size: 20px;
     padding: 1rem;
     
 }
@@ -48,7 +49,6 @@ body{
     padding: 1rem 1rem;
     border-radius: 1rem;
     text-decoration: none;
-    font-size: 1rem;
 }
 #navbar ul li a:hover{
     color: black;
