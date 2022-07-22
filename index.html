@@ -6,42 +6,48 @@
         <link rel="stylesheet" href="my_portfolio.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap">
+        <link rel="icon" href="images/Nikhil Raj-Logo.png">
         <title>
-            My Portfolio: Nikhil Raj
+            Portfolio: Nikhil Raj
         </title>
     </head>
     <body>
 
         <!-- NAVIGATION BAR -->
-        <nav id="navbar">
-            <div>
+        <section>
+            <nav id="navbar">
                 <a href="images/Nikhil Raj-Logo.png" target="_blank">
-                    <img src="images/Nikhil Raj-Logo.png">
+                        <img src="images/Nikhil Raj-Logo.png">
                 </a>
-            </div>
-            <div id="navbar-contents">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about-me">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="links" href="#home">Home</a></li>
+                    <li><a class="links" href="#about-me">About</a></li>
+                    <li><a class="links" href="#education">Education</a></li>
+                    <li><a class="links" href="#skills">Skills</a></li>
+                    <li><a class="links" href="#achievements">Achievements</a></li>
+                    <li><a class="links" href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </section>
 
         <!-- HOME SECTION -->
-        <section id="home">
-            <h1 id="home-head">
-                Hi There, I'm
-                <br>
-                <div id="name">Nikhil Raj</div> 
-            </h1>
-            <a href="images/My Photo.jpg" target="_blank">
-                <img id="dp" src="images/My Photo.jpg">
-            </a>
+        <section class="sections" id="home">
+            <div class="home-contents">
+                <h1 id="home-head">
+                    Hi There, I'm
+                    <br>
+                    <div id="name">Nikhil Raj</div> 
+                </h1>
+                <a href="images/My Photo.jpg" target="_blank">
+                    <img id="dp" src="images/My Photo.jpg">
+                </a>
+            </div>
+            <div class="home-contents" id="resume">
+                <a class="links" href="resume/Nikhil Raj-2.pdf" download="Resume: Nikhil Raj">
+                        Have a look at my resume!
+                </a>
+            </div>
         </section>
 
         <!-- ABOUT ME SECTION  -->
@@ -50,7 +56,7 @@
                 Me talking about myself
             </div>
             <div class="content">
-                A Python Software Developer and a Full-Stack Web Developer from Bareilly, UP who loves to code and design. And a fitness enthusiast.
+                A Python Software Developer and a Full-Stack Web Developer from Bareilly, UP who has a passion to code and design. And, also a fitness enthusiast.
             </div>
             <div class="content">
                 A problem to solve or a design to build, always ready for the challenges. Excitedly and consistently learning and building.
